@@ -1,0 +1,21 @@
+Can the Nao-robot connect to the internet as-is?
+
+    It's an open and fully programmable platform. It can be programmed using a graphical interface or SDK, which is available in Python and C++. Nao also can connect to wifi, so we could certainly send information through the internet to somewhere else, so it would be excellent for what we need it for.
+
+Can its vision be used as a security camera?
+
+    The Nao-robot features two 2D cameras, which can recognize shapes, objects, and even people. If its input could be captured, it could be fed into our camera app, or could be fed into a machine-learning algorithm to recognize motion controls for the music, interaction, etc. Since it can recognize these things, we should be able to program it to detect motion, both to alert as a security camera and to use motion controls for other capabilities. The one concern is whether or not the vision would translate well to a human, to the point where a human looking through the bot's eyes would be understandable and clean to a person. If not, something would have to change with the bot.
+
+Can it work as a chatbot as-is?
+
+    The robot comes equipped with 4 microphones and speakers to interact with humans, so it could work as a chatbot if we added more backend capabilities. It can also already recognize and speak in over 20 languages, including English. If this capability was already built into the bot, we could focus on other features of the bot and improve the project as a whole. The several speakers also means it could be a stellar music player, so the built-in chat features (if they are what I understand them to be) would just allow us to do more overall with the project. Even if not, it seems like it has a good base that we could build off of to create a bot in our design for chatting and interacting with the user.
+
+What modifications would it take if the answer to any of the above is no?
+
+    If the vision does not work appropriately, we would need to connect our own camera. I'm not sure if this could be connected to the robot, but I don't think it could, so it would also need its own computer and internet abilities to stream. As such, I think if not, it would be best to go in another direction.
+
+How complex would teaching it soccer be?
+
+    It would require using the cameras ability to recognize objects and then programming the robot how to move based on recognizing a soccer ball. Since most of us are unfamiliar with machine learning concepts, this could be quite difficult, and would likely be more appropriate as a primary goal. As such, I think that even if we choose to use the Nao robots as the primary hardware for our projects, the focus should not be on teaching the bot to play soccer. Our time focusing on machine learning would be better spent on something complimentary to our primary project, the camera+chatbot combination. The machine learning could compliment the music playing functionality, or turn the camera from one mode to another with motion controls. Focusing on learning something new for the soccer, which would be completely secondary to our primary goal, is not worth it in my opinion based on the limited time of this project. The robot has several functionalities that could compliment our project, and it could potentially even be made to patrol an area rather than being stationary. The robot's humanoid appearance would also make the chatbot aspect seem more human and connect more with the user, which is appealing as compared to a piece of hardware that the typical user would know nothing about.
+
+In conclusion, I think the nao robot would be the perfect piece of hardware to use for our project. It already has some of the functionalities that we're looking to create, and it could also add capabilities (like movement around an area) to what we've been discussing and enhance our project. If the vision is human enough that someone looking at the feed can know what's going on, then the Nao robot is an excellent choice for hardware going forward. If not, we should stick with our original plan of building out the hardware.
