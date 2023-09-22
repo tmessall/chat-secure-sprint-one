@@ -1,0 +1,31 @@
+What is the most secure way to handle sensitive user data such as audio or images?
+    Both Google Home and Amazon Alexa tout using encryption when moving data from devices to servers or anywhere else. 
+    They provide little information about the actual encryption methods being used, with Google only referring to it as 
+    'leading encryption technology' and Amazon referring to it as 'end-to-end encryption.'
+
+Is there a way to keep most user data on the robot instead of sending it over the internet?
+    Amazon Alexa offers a 'Do Not Send Voice Reecordings' ability which forces Alexa to proccess the data locally rather
+    than sending it to Amazon servers. This does however reduce Alexa's abilities in many ways. Live Translations, Dynamic 
+    Language Switching, Adaptive Listening, and Reading Sidekick all will not work in this mode. Google Home does not seem
+    to offer a similar offline mode.
+
+What is common practice when it comes to similar products, like Google Home, or Alexa?
+    One important standard of note is the fact that both Alexa and Home do not save recordings on their servers by default.
+    Data gets sent from the device to the servers, where it is proccessed then deleted. Both companies have the option for
+    users to allow recordings to be saved to servers for anonomized training of their voice recognition software.
+
+    Another important practice of note is that both Alexa and Home do not begin recording a message until they hear the
+    activation phrase. Only then are recordings made and sent to servers for ananlysis.
+
+What way, if any, should users be able to disable audio and / or video recording?
+    Both Alexa and Home offer a way to disable microphones. All devices offer either a microphone switch or button that
+    disables the microphone. Likewise a similar ability should be offered with video recordings. In addition to a physical
+    switch, we should also make the robots not even turn on camera until given a voice activation phrase or a button is 
+    pressed.
+
+
+SOURCES:
+https://safety.google/assistant/
+https://safety.google/photos/
+https://support.google.com/assistant/answer/11090019
+https://www.amazon.com/gp/help/customer/display.html?nodeId=GVP69FUJ48X9DK8V
