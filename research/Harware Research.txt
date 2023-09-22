@@ -1,0 +1,28 @@
+﻿What are the specifications of the robot’s camera?
+
+
+The cameras that the bot uses are 2 OV5640 2592x1944. These are 5 megapixel cameras with 2592x1944 resolution. The sensors for the cameras are an OV5640.
+
+
+What are the specifications of the robot’s microcontroller?
+
+
+The Nao autonomous robot uses an Intel Atom E3845 processor. It also comes with a Linux OS Gentoo. The compatible OSs for the NAO bot are Windows, Mac OS, and Linux. The programming languages that work with the bot’s embedded system are C++ and Python. The remote system is Java. 
+
+
+What are the specifications of the robot’s chassis?
+
+
+The physical dimensions of the Nao 6 bot are 574 x 311 x 275 mm and 5.48 Kg. It has a total 25 degrees of freedom to move. 
+
+
+What type of raspberry pi would be best for our project?
+
+
+The raspberry pi 4 would be the best choice for our project. Not only is it low budget, it also has many choices for the amount of RAM it can have. The improved processor would help ensure all our information processing runs smoothly and is not a bottleneck for our design. It also features on board Gigabit ethernet, along with wireless networking and bluetooth. With these features at its price point, we should utilize a raspberry pi 4. 
+
+
+What are the best options for peripheral components (speaker, microphone, etc) that are supported by our raspberry pi?
+
+
+There are many options for peripheral components that work with raspberry pi computers. For a low cost, we can use a usb microphone from SunFounder that is designed for the pi 4. The pi 4 comes with a 3.5mm headphone jack which can be used to transfer sound to a small speaker.
