@@ -1,0 +1,26 @@
+Does Spotify or Soundcloud allow external applications to query music streaming on behalf of a user?
+    Both Spotify and Soundcloud offer a Web API for use in developing 3rd party applications that connect 
+    with spotify. This includes the ability to stream music from the platforms with Spotify having some 
+    reasonable limitations; Such as you cannot distribute the music beyond the player, and cannot use the 
+    api to broadcast the music.
+
+Does Spotify or Soundcloud allow users to Sign-In to their accounts through a third party application?
+    Both offer the ability for users to sign in to their accounts through the third party application.
+
+When Signed-In, what, if any, features become available to users?
+    Soundcloud offers abilities to signed-in users, such as creating playlists or uploading songs. For our
+    purpose this doesn't seem too important. Spotify offers more abilities for signeed in users; such as
+    getting their top artists/content and getting artists followed by the user.
+
+Would there be any fees associated with making a third party integration of their software?
+    Both web API's are offered free of charge.
+
+Which Software provides better features and simple integration?
+    Spotify offers a more detailed documentation. In addition, the features available seem more relevant to
+    our use-case of users simply listening to music. Soundcloud offers more features for users who want to 
+    upload their own music.
+
+
+SOURCES:
+https://developer.spotify.com/documentation/web-api
+https://developers.soundcloud.com/docs/api/guide
