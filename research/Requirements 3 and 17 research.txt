@@ -1,0 +1,43 @@
+What are the best chatting models?
+LLaMA, ChatSpot, Chat GPT, Bard, Jasper
+
+How can we modify these models to interact with a camera feed and identify what we want?
+To modify these models to interact with a camera feed, we have to change the "source" that the model is 
+looking at for the images that it is analyzing.  This can be done createing a stream from the camera and
+setting it as the input feed.
+
+What are the bare minimum requirements for running this model?
+The bare minimum requirements depend on which model.  For the advance models we would need to use cloud computing.
+For something more simple like  LLaMA, we could run on a raspberry pi if optimized correctly.  
+
+
+Can we optimize these models to work on a less efficient system?
+Using techniques like pruning and compression, we can have these models work on a less efficient system
+
+
+How can we extend Chat GPT or a similar model to chat about things in the camera feed?
+We can create a plugin to tailor Chat GPT for our purposes
+
+Sources: https://blog.hubspot.com/marketing/best-ai-chatbot
+https://huggingface.co/ycros/airoboros-65b-gpt4-1.4.1-PI-8192-4bit-32g-actorder
+
+What are the best computer vision models?
+ResNet, DenseNet, Inception
+
+How can we modify these models to identify exactly what we want?
+We can prompt the models with certain things we want to identify and train
+them off of these objects
+
+What are the bare minimum requirements for running this model?
+The bare minimum requirements depend on which model.  For the advance models we would need to use cloud computing.
+For something more simple like  LLaMA, we could run on a raspberry pi if optimized correctly.  
+
+Can we optimize these models to work on a less efficient system?
+Using techniques like pruning and compression, we can have these models work on a less efficient system
+
+How accurate can these models be?
+Model accuracy varies depending on the model.  They vary from 85% accurate to 60% accurate
+
+
+Sources:
+https://github.com/gmalivenko/awesome-computer-vision-models
