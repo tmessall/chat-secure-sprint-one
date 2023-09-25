@@ -1,0 +1,31 @@
+﻿Requirement Artifact 9 description - Software Research: Operating System, Cloud integration, libraries needed, voice recognition software, API’s used, converting audio input/output, etc.
+
+
+This research documentation will thoroughly cover the specifications Software Research: Operating System: Name of the OS, Version, Licensing details, Supported hardware platforms, Maintenance. Cloud Integration: Supported cloud platforms (e.g., AWS, Azure, GCP), Data storage and backup solutions, and Integration methods (e.g., SDK, direct API). Libraries Needed: Library names, Versions, Licensing details, Primary functions and features. Voice Recognition Software: Software name and version, Accuracy rate, Integration methods. APIs Used: API names, Functions and features, Cost, Documentation availability. Converting Audio Input/Output: Supported audio formats, Conversion methods and algorithms, Quality and bitrate options, and Time taken for conversion.
+
+
+Questions to be answered and researched:
+* Which OS best suits the software application's needs? Is the OS scalable and able to support future updates? What are the security features of the OS?
+We will be using, IOS and Linux for our application needs. Both OS’s are scalable and able to do future updates. OS provides full privacy and encryption for user data. 
+
+
+* How does the software plan to utilize cloud resources? What are the failover and redundancy plans? How does cloud integration affect the software's performance and availability?
+We will store user data in cloud such as AWS. AWS has very good uptime due to their robust systems designed to handle failover, redundancy, and speed issues. Cloud can provide slow speed if it isn’t optimized for scalability with users which won’t be a concern right now. 
+
+
+* Are there any licensing concerns with the libraries? Are there alternative libraries that can be used? How are the libraries maintained and updated?
+No licensing concerns come to light other then cost of operating libraries which will depend as we continue developing the robot. Libraries of OS and software are maintained and updated by third parties such as Apple, Linux open source developers, and AWS developers. For our own IOS app, we will be responsible for the updates. 
+* How does the voice recognition software handle different accents or dialects? Are there any limitations in terms of the number of simultaneous users? What kind of training data was used for the software?
+We will be using googles speech to text api, which is best in the industry. It can handle multiple accents from 150+ countries and multiple users. Google uses it’s own data from the users that give permission to collect voice data for improvements. 
+
+
+* How are the APIs secured? What's the uptime guarantee of these APIs? How frequently are the APIs updated or changed, and what's the protocol for such changes?
+API’s that we are using from Spotify, AWS, Google all are very secure. Uptime is guaranteed on these since these are the industry leaders. API’s are updated in the same format as software, which can happen within few hours, days or weeks depending on the schedule of developers behind API’s. 
+* How does the software handle large audio files? Are there options for batch processing?
+We are using API’s for music, so the audio files will be handles by third party. Processing will be done on AWS for user input, computation, and API’s request which can be handle at the same time in the cloud. 
+
+
+Sources: 
+https://cloud.google.com/speech-to-text
+https://developer.apple.com/
+https://aws.amazon.com/developer/

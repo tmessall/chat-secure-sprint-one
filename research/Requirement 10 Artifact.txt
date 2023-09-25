@@ -1,0 +1,39 @@
+﻿Requirement Artifact 10 description - specifications on how we can create a music player, free libraries, licensing issues, etc.
+
+
+This research documentation will thoroughly cover the specifications: Music Player Creation: Core functionalities (e.g., play, pause, next, previous). Supported audio formats (e.g., MP3, WAV, AAC). Free Libraries: Library names and their primary functions, Versions, Dependencies, or prerequisites. Licensing Issues: Licensing models of the libraries used (e.g., MIT, GPL, Apache), Licensing requirements for the distribution of the music player, and Restrictions or obligations under each license. 
+
+
+Questions to be answered: 
+* What are the main features the music player aims to offer beyond basic functionalities? 
+Music player will allow users to play, pause, go to next song, go to previous song, increase, decrease volume which are essential features. Music player within the robot listens to user input then translates it into machine code to understand and performs the action specified. For example: hey robot play next songs. This command will make robot play next song from the que of the music player. 
+* How will the music player handle large playlists or libraries? Are there any plans for cross-platform support? 
+Music player is designed to use spotify IOS sdk and Web API to fetch request to play music on the users command. There’s no plans on cross platform, our app is specifically for IOS. 
+
+
+* How regularly are these libraries updated? 
+Spotify API and SDK will update everytime there’s new call from the user.
+
+
+* Are there any known vulnerabilities or concerns associated with these libraries? 
+Spotify is very secure with it’s API’s. However, there is known vulnerability that if someone get’s on your network then they can reverse the call path from API to perform their own operations. 
+
+
+* Are there any potential conflicts between the licenses of different libraries? 
+No, since we are going to stick with one player, there won’t be any issues. 
+
+
+* Does the chosen license allow for commercial use of the music player? 
+Yes, spotify allows personal use, and beginner api plan is free. 
+
+
+* Are there any obligations to contribute back to the open-source community under the license?
+No, obligations. Spotify is not open source, so it does not need us to have any obligation for contributing back. 
+
+
+Sources:
+
+
+https://developer.spotify.com/documentation/ios
+https://nvd.nist.gov/vuln/detail/CVE-2023-23608
+https://rapidapi.com/Glavier/api/spotify23/pricing
